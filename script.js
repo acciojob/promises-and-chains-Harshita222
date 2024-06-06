@@ -1,4 +1,3 @@
-//your JS code here. If required.
 document.getElementById('ageForm').addEventListener('submit', function(event) {
     event.preventDefault();
 
@@ -6,7 +5,7 @@ document.getElementById('ageForm').addEventListener('submit', function(event) {
     const name = document.getElementById('name').value;
 
     if (!age || !name) {
-        alert('Both fields are required.');
+        alert('Please enter valid details');
         return;
     }
 
